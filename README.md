@@ -1,0 +1,2 @@
+# GetAi.co
+Ai stocks
