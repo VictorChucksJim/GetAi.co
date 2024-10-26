@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetAI.co - Free AI Stock Content</title>
+    <!-- Link to CSS file in the same directory -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="/">GetAI.co</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Images</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="#" class="login">Log In</a>
+            <a href="#" class="signup">Sign Up</a>
+        </div>
+    </header>
+
+    <!-- Search and Filter Section -->
+    <section class="search-filter-section">
+        <h1>Explore AI-Generated Content</h1>
+        <form action="#" method="get" class="search-form">
+            <input type="text" placeholder="Search for images, videos, and more..." name="search">
+            <select name="content-type">
+                <option value="all">All</option>
+                <option value="images">Images</option>
+                <option value="videos">Videos</option>
+                <option value="music">Music</option>
+            </select>
+            <select name="category">
+                <option value="all">All Categories</option>
+                <option value="abstract">Abstract</option>
+                <option value="nature">Nature</option>
+                <option value="technology">Technology</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <h2>Popular AI-Generated Content</h2>
+        <div class="gallery">
+            <!-- Gallery items -->
+            <div class="gallery-item">
+                <img src="path-to-thumbnail.jpg" alt="AI Content 1">
+                <p>AI Content Title 1</p>
+            </div>
+            <div class="gallery-item">
+                <img src="path-to-thumbnail.jpg" alt="AI Content 2">
+                <p>AI Content Title 2</p>
+            </div>
+            <!-- Add more gallery items as needed -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 GetAI.co | Free AI-Generated Stock Content</p>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
